@@ -43,7 +43,7 @@
 | Operating temperature                        | -20~70 °C                                                    |
 | Storage temperature                          | -30~80 °C                                                    |
 | Power Input                                  | 5V/2A, USB or UART terminal                                  |
-| Dimensions                                   | 248*147mm                                                    |
+| Dimensions                                   | 248\*157*18mm                                                    |
 
 
 
@@ -105,5 +105,6 @@ C:\Users\Documents\Arduino\libraries\
 
 
 ### 7,Pin definition
+
 
 
