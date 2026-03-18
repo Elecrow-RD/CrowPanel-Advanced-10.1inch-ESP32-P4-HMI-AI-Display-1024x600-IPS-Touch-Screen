@@ -15,8 +15,7 @@
 | CPU/SoC                                      | **ESP32-P4**RISC-V 32-bit dual-core processor for HP systems, running at up to 400 MHz; RISC-V 32-bit single-core processor for LP systems, running at up to 40 MHz |
 | System Memory                                | 768 KB L2MEM（HP）32 KB SRAM（LP）8 KB TCM 32 MB PSRAM       |
 | Memory                                       | 128 KB ROM（HP）16 KB ROM（LP）16 MB Flash                   |
-| Development Language                         | MicroPython, Rust, Lua                                       |
-| Development Environment                      | ESP-IDF、Arduino IDE、LVGL                                   |
+| Development Environment                      | ESP-IDF、Arduino IDE                                         |
 | **Screen**                                   |                                                              |
 | Size                                         | 10.1 inch                                                    |
 | Resolution                                   | 1024*600                                                     |
@@ -64,7 +63,7 @@
 
 | Name | dependency library |
 | ---- | ------------------ |
-| LVGL | lvgl/lvgl@8.3.11   |
+| LVGL | lvgl/lvgl@9.2      |
 
 ### 5,Quick Start
 ##### ESP-IDF starts
