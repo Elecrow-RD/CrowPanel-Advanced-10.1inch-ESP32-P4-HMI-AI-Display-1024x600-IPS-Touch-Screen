@@ -76,8 +76,8 @@
 
 
 2.In the IDF plug-in, select the port, then compile and flash
-![5](https://github.com/user-attachments/assets/76b6182f-0998-4496-920d-d262a5142df3)
 
+<img width="1363" height="721" alt="image" src="https://github.com/user-attachments/assets/cb4923e1-15d8-4749-bcd8-66c85773523a" />
 
 
 
