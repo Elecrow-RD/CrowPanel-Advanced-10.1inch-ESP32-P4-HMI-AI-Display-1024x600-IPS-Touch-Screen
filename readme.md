@@ -1,5 +1,6 @@
 ### 1, Product picture
 
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/830afcf3-9947-4487-b87e-5d0eea8ad645" />
 
 
 ### 2, Product version number
