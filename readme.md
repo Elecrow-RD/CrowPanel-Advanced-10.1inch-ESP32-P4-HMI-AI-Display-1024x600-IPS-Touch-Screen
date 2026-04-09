@@ -99,4 +99,97 @@
 
 ### 7,Pin definition
 
+#### ESP32-P4 10.1 inch and IPS Display Wiring Pins:
+**DSI = Display Serial Interface**is a high-speed, low-power display interface standard defined by the MIPI Alliance, most commonly used in smartphones, tablets, Raspberry Pi devices, and embedded Linux systems.
+
+<img width="723" height="693" alt="image" src="https://github.com/user-attachments/assets/ac97b8af-0dbe-4560-b50b-e456f5980402" />
+
+
+DSI Pin connection
+
+
+DSI_DATAN0--IO40
+
+DSI_DATAN0--IO39
+
+DSI_DATAN0--IO36
+
+DSI_DATAN0--IO35
+
+DSI_CLKN--IO37
+
+DSI_CLKP--IO38
+
+DSI_REXT--IO34
+
+#### ESP32-P4 and Touch Driver Wiring：
+i2c address: 0x5D/0x14.(The INT pin level during reset of the GT911 touch chip determines the device address.)
+
+INT Low Level(0x5D);
+
+INT High Level(0x14).
+
+<img width="641" height="571" alt="image" src="https://github.com/user-attachments/assets/7d4c710c-56eb-40e6-b9af-9674c15bb008" />
+
+
+Pin connection
+
+
+I2C1_SCL(IO46)
+
+I2C1_SDA(IO45)
+
+INT_TP(IO42)
+
+RESET_TP(IO40)
+
+#### ESP32-P4 and wireless module wiring pins：
+
+Output voltage: 3.3V Output current: 1A max. Use: The power supply communicates with the wireless module.
+
+<img width="1008" height="553" alt="image" src="https://github.com/user-attachments/assets/3a3ab30c-8a39-4835-b34c-9b8cc20792f6" />
+
+
+Pin connection
+
+
+#define RADIO_GPIO_CLK 8
+
+#define RADIO_GPIO_MISO 7
+
+#define RADIO_GPIO_MOSI 6
+
+#ifdef CONFIG_BSP_SX1262_ENABLED
+
+#define SX1262_GPIO_BUSY 9
+
+#define SX1262_GPIO_IRQ 53
+
+#define SX1262_GPIO_NRST 54
+
+#define SX1262_GPIO_NSS 10
+
+#ifdef CONFIG_BSP_NRF2401_ENABLED
+
+#define NRF24_GPIO_IRQ 9
+
+#define NRF24_GPIO_CE 53
+
+#define NRF24_GPIO_CS 54
+
+ESP32-P4 and Audio out：
+
+<img width="913" height="789" alt="image" src="https://github.com/user-attachments/assets/009ef490-b709-486c-a1f7-7bfaed0c818d" />
+
+
+Pin connection
+
+
+#define AUDIO_GPIO_LRCLK    21   // GPIO pin number for LRCLK (Left-Right Clock)
+
+#define AUDIO_GPIO_BCLK     22   // GPIO pin number for BCLK (Bit Clock)
+
+#define AUDIO_GPIO_SDATA    23   // GPIO pin number for SDATA (Serial Data)
+
+#define AUDIO_GPIO_CTRL     30   // GPIO pin number for audio amplifier control
 
