@@ -13,10 +13,12 @@
 
 
 **Version 1.1 Update**
-The C6 module version 1.1 adds support for 4-wire SDIO communication. Additionally, the arrangement of the SDIO pins has been adjusted, with the pin mappings of the data lines D0–D3 changing from IO14, IO15, IO16, IO17 to IO17, IO16, IO15, IO14. 
+
+The C6 module version 1.1 adds support for 4-wire SDIO communication. Additionally, the arrangement of the SDIO pins has been adjusted, with the pin mappings of the data lines D0–D3 changing from **IO14, IO15, IO16, IO17** to **IO17, IO16, IO15, IO14**. 
 
 **Version 1.2 Update** 
-Based on the V1.1 version, V1.2 further optimized the communication stability of the LoRa wireless module. At the same time, the signal pins of the wireless module socket were re-allocated: the original IO53 and IO54 were adjusted to IO27 and IO28 respectively, and correspondingly, IO27 and IO28 were adjusted to IO53 and IO54 respectively.
+
+Based on the V1.1 version, V1.2 further optimized the communication stability of the LoRa wireless module. At the same time, the signal pins of the wireless module socket were re-allocated: the original **IO53 and IO54** were adjusted to **IO27 and IO28** respectively, and correspondingly, **IO27 and IO28** were adjusted to **IO53 and IO54** respectively.
 
 ### 3, product information
 
