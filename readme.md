@@ -73,9 +73,9 @@ Based on the V1.1 version, V1.2 further optimized the communication stability of
 
 ### 4, Use the driver module
 
-| Name | dependency library |
-| ---- | ------------------ |
-| LVGL | lvgl/lvgl@9.2      |
+| Name | dependency library                                |
+| ---- | ------------------------------------------------- |
+| LVGL | lvgl/lvgl@9.1(V1.2)<br />lvgl/lvgl@8.3(V1.0/V1.1) |
 
 ### 5,Quick Start
 ##### ESP-IDF starts
